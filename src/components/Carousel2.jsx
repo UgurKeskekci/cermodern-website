@@ -1,15 +1,15 @@
 import React from "react";
-import Card from "../components/Card.jsx";
+import Card from "./Card.jsx";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 
 function Carousel() {
 
     const scrollLeft = () => {
-        document.getElementById("content").scrollLeft -= 800;
+        document.getElementById("content").scrollLeft -= 400;
     }
 
     const scrollRight = () => {
-        document.getElementById("content").scrollLeft += 800;
+        document.getElementById("content").scrollLeft += 400;
     }
 
   return (

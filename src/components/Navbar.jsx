@@ -1,5 +1,9 @@
 import React, {useState}from 'react'
-import {FaBars, FaTimes,FaGithub,FaLinkedin, FaYoutube} from 'react-icons/fa'
+import {FaBars, FaTimes, FaQuestion} from 'react-icons/fa'
+import {BsQuestionLg} from 'react-icons/bs'
+import {TbWorld} from 'react-icons/tb'
+import {HiBars3BottomLeft} from 'react-icons/hi2'
+
 import crmLogo from '../assets/crmLogo.png'
 
 import {Link} from 'react-scroll'
@@ -13,14 +17,14 @@ function Navbar (){
 
     return(
         <>
-        <div className='w-full h-[40px] flex justify-start px-4 bg-[#fefefe] text-black'>
-            <div className='px-4 flex'>
-                <h1>EN</h1>
-                <h1>DE</h1>
+        <div className='w-full h-[40px] flex justify-start px-4 mt-1 bg-[#fefefe] text-black'>
+            <div className='ml-6 px-4 flex'>
+                <h1 className='mr-2 flex'> <span className='mt-1'><TbWorld/></span> DE</h1>
+                <h1 className='flex'>EN</h1>
             </div>
-            <div className='px-4'>
-                <button className='border'>? HELP</button>
-                <button className='border'>Search</button>
+            <div className='px-4 flex'>
+                <button className='border mr-2  border-white ml-1 h-7 w-20 bg-gray-100 hover:bg-gray-300 hover:underline flex justify-center'><span className='mt-1'><BsQuestionLg/></span> Help</button>
+                <button className='border  border-white h-7 w-20 bg-gray-100 hover:bg-gray-300 hover:underline flex justify-center'>Search</button>
             </div>
            
         </div>
@@ -29,7 +33,7 @@ function Navbar (){
             
             <div>
                {/* Hamburger Menu */}
-                <div onClick={handleClick} className='z-10 ml-6'>
+                <div onClick={handleClick} className='z-10 ml-10 '>
                 {!nav ? <FaBars/> : <FaTimes/>}
                 </div>
                 

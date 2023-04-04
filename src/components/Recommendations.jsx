@@ -1,10 +1,10 @@
 import React from 'react'
-import Carousel from './Carousel'
+import Carousel from './Carousel2'
 
 function Recommendations() {
   return (
    <>
-   <div className=" py-4 text-xl font-bold">RECOMMENDATIONS</div>
+   
     <Carousel/>
    
    </>

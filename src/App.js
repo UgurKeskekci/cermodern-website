@@ -6,6 +6,9 @@ import Highlights from './components/Highlights';
 import Carousel from './components/Carousel';
 import Recommendations from './components/Recommendations';
 import Blogcontents from './components/Blogcontents';
+import Gallery from './components/Gallery'
+import Footer from './components/Footer';
+import Discover from './components/Discover';
 
 function App() {
   return (
@@ -13,10 +16,13 @@ function App() {
        
         <Navbar/>
         <Introduction/>
+        
         <Highlights/>
         <Recommendations/>
         <Blogcontents/>
-
+        <Gallery/>
+        <Discover/>
+        <Footer/>
     </div>
   );
 }

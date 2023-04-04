@@ -6,11 +6,11 @@ function Discover() {
 
 
     const scrollLeft = () => {
-        document.getElementById("content").scrollLeft -= 800;
+        document.getElementById("content2").scrollLeft -= 800;
     }
 
     const scrollRight = () => {
-        document.getElementById("content").scrollLeft += 800;
+        document.getElementById("content2").scrollLeft += 800;
     }
 
 
@@ -32,7 +32,7 @@ function Discover() {
           <FiChevronRight />
         </button>
       </div>
-      <div  id='content' className="carousel p-4  flex items-center justify-start overflow-x-auto scrollbar-hide scroll-smooth relative">
+      <div  id='content2' className="carousel p-4  flex items-center justify-start overflow-x-auto scrollbar-hide scroll-smooth relative">
         <div>
           <Card />
         </div>

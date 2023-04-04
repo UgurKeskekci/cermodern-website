@@ -5,11 +5,11 @@ import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 function Carousel() {
 
     const scrollLeft = () => {
-        document.getElementById("content").scrollLeft -= 400;
+        document.getElementById("content3").scrollLeft -= 400;
     }
 
     const scrollRight = () => {
-        document.getElementById("content").scrollLeft += 400;
+        document.getElementById("content3").scrollLeft += 400;
     }
 
   return (
@@ -24,7 +24,7 @@ function Carousel() {
             <FiChevronRight />
           </button>
         </div>
-        <div  id='content' className="carousel p-4  flex items-center justify-start overflow-x-auto scrollbar-hide scroll-smooth relative">
+        <div  id='content3' className="carousel p-4  flex items-center justify-start overflow-x-auto scrollbar-hide scroll-smooth relative">
           <div>
             <Card />
           </div>

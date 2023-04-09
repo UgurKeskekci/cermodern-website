@@ -1,6 +1,7 @@
 import React from "react";
-import Card from "./Card.jsx";
+import Card from "./RecomCard";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
+import RecomCard from "./RecomCard";
 
 function Carousel() {
 
@@ -15,7 +16,7 @@ function Carousel() {
   return (
     <>
       <div className="mt-20  relative">
-        <div className="text-left ml-24 py-4 text-3xl font-bold">HIGHLIGHTS</div>
+        <div className="text-left ml-24 py-4 text-3xl font-bold">RECOMMENDATIONS</div>
         <div className="absolute right-0 top-0">
           <button onClick={scrollLeft} className="p-4 m-2 rounded-full border-2 border-black">
             <FiChevronLeft />
@@ -26,43 +27,43 @@ function Carousel() {
         </div>
         <div  id='content3' className="carousel p-4  flex items-center justify-start overflow-x-auto scrollbar-hide scroll-smooth relative">
           <div>
-            <Card />
+            <RecomCard />
           </div>
           <div>
-            <Card />
+          <RecomCard />
           </div>
           <div>
-            <Card />
+          <RecomCard />
           </div>
           <div>
-            <Card />
+          <RecomCard />
           </div>
           <div>
-            <Card />
+          <RecomCard />
           </div>
           <div>
-            <Card />
+          <RecomCard />
           </div>
           <div>
-            <Card />
+          <RecomCard />
           </div>
           <div>
-            <Card />
+          <RecomCard />
           </div>
           <div>
-            <Card />
+          <RecomCard />
           </div>
           <div>
-            <Card />
+          <RecomCard />
           </div>
           <div>
-            <Card />
+          <RecomCard />
           </div>
           <div>
-            <Card />
+          <RecomCard />
           </div>
           <div>
-            <Card />
+          <RecomCard />
           </div>
         </div>
       </div>

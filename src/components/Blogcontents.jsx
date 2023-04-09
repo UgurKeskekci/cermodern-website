@@ -1,72 +1,43 @@
-import React from 'react'
+import React from "react";
+import Blogcard from "./Blogcard";
+
 
 function Blogcontents() {
+  const card = [
+    {
+      img:'https://turkishmuseums.com/Uploads/M%C3%BCze/Foto/Foto%C4%9Fraflar/d94f4207-4155-47e3-9d90-3cf1c0e2ace3.jpg',
+      title:' DIGNITY - CONTINUTY - TRANSPARENCY',
+      desc:'JOINT DECLERATION OF THE INTERNATIONAL PARTNERS',
+    },
+    {
+      img:'https://c4.wallpaperflare.com/wallpaper/883/42/557/the-last-of-us-2-the-last-of-us-the-last-of-us-part-ii-playstation-4-naughty-dog-hd-wallpaper-preview.jpg',
+      title:'NETWORK OF WARMth',
+      desc:'Jahanniter at the Forum',
+    },
+    {
+      img:'https://cdn.pixabay.com/photo/2022/10/03/21/47/fog-7496901__340.jpg',
+      title:'EXHIBITION',
+      desc:'Discover the new views around forum',
+    },
+    {
+      img:'https://www.nasihatler.com/wp-content/uploads/2019/09/Nasihatler-arkaplan-resimleri-110.jpg',
+      title:'CONTINUITY – TRANSPARENCY',
+      desc:' the undersigned participants at the Humboldt Forum opening symposium',
+    },
+  ]
+  
+
   return (
     <>
-    <div className='mt-32 w-full  justify-center align-middle ml-36'> 
-    <ul className=''>
-      <li className=''>
-      <div className=''>
-      <img className='h-[300px] w-[1200px] object-cover absolute' src="https://fristartmuseum.org/wp-content/uploads/Otobong-gallery-shots-3.jpg" alt="photo" /> 
-      <div className=''>
-        <h1 className='absolute ml-[40px] mt-[100px] flex justify-center items-center text-white font-bold'>DIGNITY - CONTINUTY - TRANSPARENCY</h1>
-        <h1 className='absolute ml-[40px] mt-[140px] w-[400px] flex justify-center items-center text-white font-bold'>JOINT DECLERATION OF THE INTERNATIONAL PARTNERS</h1>
-        <div className='absolute ml-[40px] mt-[200px] flex justify-center items-center text-black font-bold'>
-        <button className=' flex justify-center text-black font-bold border bg-white w-48 h-12'><span className='mt-2'>FIND OUT MORE</span></button>
-        </div>
-      </div>
-      </div>
-      </li>
+    
+    <Blogcard img={card[0].img} title={card[0].title} desc={card[0].desc}/>
+    <Blogcard img={card[1].img} title={card[1].title} desc={card[1].desc}/>
+    <Blogcard img={card[2].img} title={card[2].title} desc={card[2].desc}/>
+    <Blogcard img={card[3].img} title={card[3].title} desc={card[3].desc}/>
 
-      <li className='my-12'>
-      <div className=''>
-      <img className='h-[300px] w-[1200px] object-cover ' src="https://fristartmuseum.org/wp-content/uploads/0884.002_Nkanga_Revelations_Photo.OysteinThorvaldsen-scaled.jpg" alt="photo" /> 
-      <div className=''>
-      <h1 className='absolute ml-[40px] mt-[100px] flex justify-center items-center text-white font-bold'>DIGNITY - CONTINUTY - TRANSPARENCY</h1>
-        <h1 className='absolute ml-[40px] mt-[140px] w-[400px] flex justify-center items-center text-white font-bold'>JOINT DECLERATION OF THE INTERNATIONAL PARTNERS</h1>
-        <div className='absolute ml-[40px] mt-[200px] flex justify-center items-center text-black font-bold'>
-        <button className=' flex justify-center text-black font-bold border bg-white w-48 h-12'><span className='mt-2'>FIND OUT MORE</span></button>
-        </div>
-      </div>
-      </div>
-      </li>
 
-      <li className='my-12'>
-      <div className=' '>
-      <img className='h-[300px] w-[1200px] object-cover ' src="https://cdn.pixabay.com/photo/2021/07/30/12/07/flag-6509494__340.png" alt="photo" /> 
-      <div className=''>
-        <h1 className='absolute ml-[40px] mt-[100px] flex justify-center items-center text-white font-bold'>DIGNITY - CONTINUTY - TRANSPARENCY</h1>
-        <h1 className='absolute ml-[40px] mt-[140px] w-[400px] flex justify-center items-center text-white font-bold'>JOINT DECLERATION OF THE INTERNATIONAL PARTNERS</h1>
-        <div className='absolute ml-[40px] mt-[200px] flex justify-center items-center text-black font-bold'>
-        <button className=' flex justify-center text-black font-bold border bg-white w-48 h-12'><span className='mt-2'>FIND OUT MORE</span></button>
-        </div>
-      </div>
-      </div>
-      </li>
-
-      <li className='my-12'>
-      <div className=' '>
-      <img className='h-[300px] w-[1200px] object-cover absolute' src="https://fristartmuseum.org/wp-content/uploads/Otobong-gallery-shots-3.jpg" alt="photo" /> 
-      <div className=''>
-        <h1 className='absolute ml-[40px] mt-[100px] flex justify-center items-center text-white font-bold'>DIGNITY - CONTINUTY - TRANSPARENCY</h1>
-        <h1 className='absolute ml-[40px] mt-[140px] w-[400px] flex justify-center items-center text-white font-bold'>JOINT DECLERATION OF THE INTERNATIONAL PARTNERS</h1>
-        <div className='absolute ml-[40px] mt-[200px] flex justify-center items-center text-black font-bold'>
-        <button className=' flex justify-center text-black font-bold border bg-white w-48 h-12'><span className='mt-2'>FIND OUT MORE</span></button>
-        </div>
-      </div>
-      </div>
-      </li>
-    </ul>
-
-      
-        
-      
-    </div>      
-    <div className='mt-[400px] px-[600px]'>
-      <button className='border-black border-2 w-64 h-16 align-middle items-center mb-12 '>EXPLORE THE PROGRAMME </button>
-    </div>
     </>
-  )
+  );
 }
 
-export default Blogcontents
+export default Blogcontents;

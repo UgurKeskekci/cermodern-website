@@ -1,20 +1,37 @@
-import React from 'react'
+import React from "react";
 
-function Card() {
+function Card({img,category,content,description,date,findoutmore}) {
   return (
-    <div className='card bg-white md:w-[450px] md:h-[620px] h-[1000px] w-[450px] ml-6 flex relative'>
-        <div className="top">
-            <img className='w-[450px] h-[620px]' src="https://fristartmuseum.org/wp-content/uploads/Otobong-gallery-shots-3.jpg" alt="img" />
+    <>
+    
+      <div class="shadow-md my-3 relative ml-6 min-w-[350px] hover:w-[340px] hover:h-[540px] font-roboto">
+        
+
+       
+        <img
+          src={img}
+          class="object-cover h-[550px] w-[350px] hover:w-[340px] hover:h-[540px]"
+        />
+
+        <div class="absolute bottom-32 left-12 right-12 px-4 py-2 text-center text-2xl ">
+          <h3 class="text-white ">{category}</h3>
+          <p class="mt-2  text-white font-bold">
+          {content}
+          </p>
+        </div>
+        <div class=" justify-center left-12  right-12 bottom-8 text-white absolute text- xl font-bold">
+          <div class="text-center mr-3 border-r pr-3">
+           
+            <h1>{description}</h1>
+  
+            <h1>{date}</h1>
+            <h1>{findoutmore}</h1>
+          </div>
         </div>
        
-            <div className="absolute w-[470px] h-[880px] flex justify-center items-center text-xl text-white "> CONCERT </div>
-            <div className="absolute w-[470px] h-[930px] flex justify-center items-center text-xl text-white font-bold"> Star Dust Music </div>
-            <div className="absolute w-[470px] h-[1050px] flex justify-center items-center text-xl text-white"> New Presentations of Collections  </div>
-            <div className="absolute w-[470px] h-[1150px] flex justify-center items-center text-xl text-white "> Fri 07/04/2023, 07:00 pm </div>
-            
-        
-    </div>
-  )
+      </div>
+    </>
+  );
 }
 
-export default Card
+export default Card;

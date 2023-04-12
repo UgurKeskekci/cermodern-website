@@ -20,7 +20,7 @@ function Recommendations() {
       desc:'After Nature',
       title:'#Logoskop fourteen',
       details:'Poetry and science with Lea Weber and...',
-      date:'1 April to 26. November 2023' 
+      date:'27 May to 26. November 2023' 
     },
     {
       img:'https://turkishmuseums.com/Uploads/M%C3%BCze/Foto/Foto%C4%9Fraflar/d94f4207-4155-47e3-9d90-3cf1c0e2ace3.jpg',
@@ -28,7 +28,7 @@ function Recommendations() {
       desc:'Meet the Scientest',
       title:'What to do about wealth and inequality',
       details:'Meet the scientist with martyna Linartas',
-      date:'1 April to 26. November 2023'  
+      date:'2 April to 20. November 2023'  
     },
     {
       img:'https://pbs.twimg.com/media/EElO2JXWwAY-yJH?format=jpg&name=large',
@@ -36,7 +36,7 @@ function Recommendations() {
       desc:'Revolution The Foe Of An Arrow Wound',
       title:'The resident music collective plays for the exhibition',
       details:'Poetry and science with Lea Weber',
-      date:'1 April to 26. November 2023'  
+      date:'25 May to 26. November 2023'  
     },
     {
       img:'https://pbs.twimg.com/media/EElOrSsXkAUSmwM?format=jpg&name=large',
@@ -60,7 +60,7 @@ function Recommendations() {
       desc:'Revolution The Foe Of An Arrow Wound',
       title:'The resident music collective plays for the exhibition',
       details:'Poetry and science with Lea Weber',
-      date:'1 April to 26. November 2023' 
+      date:'1 Augst to 26. November 2023' 
     },
     
     

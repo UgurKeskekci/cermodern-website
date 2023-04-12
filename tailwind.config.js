@@ -8,7 +8,10 @@ module.exports = {
 
     },
     fontFamily: {
-      roboto: ['Roboto', 'sans-serif']
+      roboto: ['Roboto', 'sans-serif'],
+      montserrat: ['Montserrat', 'sans-serif'],
+      worksans: ['Work Sans', 'sans-serif']
+      
     },
    
   },

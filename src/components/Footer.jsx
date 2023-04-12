@@ -10,21 +10,21 @@ function Footer() {
       <hr />
       <div>
         <div>
-          <ul className="flex justify-center px-8">
-            <li className="px-36 p-16 text-center  ">
-              <BiTimeFive size={30} />
+          <ul className="flex  px-8">
+            <li className="px-36 p-16 text-center justify-items-center align-middle">
+              <div className="px-12"><BiTimeFive size={30} /></div>
               <p className="text-xl ">Open now</p>
               <p className="underline ">closes at 6:30 pm</p>
             </li>
             <li className="px-36 p-16 text-center">
-              <GoLocation size={30} />
+              <div className="px-24"><GoLocation size={30} /></div>
               <p className="text-xl ">Location</p>
               <p className="underline ">Schlossplatz, 10178 Berlin</p>
             </li>
             <li className="px-36 p-16 text-center">
-              <FaRegComment size={30} />
+              <div className="px-24"><FaRegComment size={30} /></div>
               <p className="text-xl ">Visitor services</p>
-              <p className="underline ">+49 30 99 211 89 89 • Contact us</p>
+              <p className="underline ">+49 30 99 211 89 89 • Contact </p>
             </li>
           </ul>
         </div>

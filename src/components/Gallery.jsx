@@ -81,7 +81,11 @@ function Gallery() {
     
   
  
-    <div className='h-[750px] w-full m-auto py-16 px-4 relative group'>
+    <div className='h-[750px] 2xl:h-[900px] w-full m-auto py-16 px-4 relative group'>
+    <div>
+      
+    </div>
+    
     <div
       style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
       className='w-full h-full bg-center bg-cover duration-500'
@@ -98,7 +102,7 @@ function Gallery() {
       <BsChevronCompactRight  onClick={nextSlide} size={30} />
     </div>
     
-        <div className='absolute  h-[950px] top-[65%] left-[32%] '>
+        <div className='absolute  h-[150px] top-[65%] left-[32%] '>
            <div className='h-[100px]  justify-center items-center bg-gray-100 rounded-sm'>
            <p className='  mt-4 w-full  ml-6 justify-center items-center text-2xl text-black font-bold'>{slides[currentIndex].text}</p>
            <p className='  w-[550px] ml-6 justify-center items-center text-black text-sm'> {slides[currentIndex].desc}</p>

@@ -6,7 +6,7 @@ function Blogcard({img,title, desc}) {
 
 
   return (
-    <div className="mt-32 px-56 grid grid-rows  gap-4">
+    <div className="mt-32 2xl:px-96 px-56 grid grid-rows  gap-4">
         
           <img
             className="h-[300px] w-[1000px] object-cover "

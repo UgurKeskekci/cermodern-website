@@ -10,20 +10,29 @@ import Gallery from './components/Gallery'
 import Footer from './components/Footer';
 import Discover from './components/Discover';
 
+
+
+
+import Home from './pages/Home';
+import Event from './pages/Event';
+import { Routes, Route, Link, NavLink } from 'react-router-dom';
+import Hamburgermenu from './components/Hamburgermenu';
+
+
 function App() {
   return (
-    <div>
+<> 
+    <Navbar/>
        
-        <Navbar/>
-        <Homepage/>
-        
-        <Highlights/>
-        <Recommendations/>
-        <Blogcontents/>
-        <Gallery/>
-        <Discover/>
-        <Footer/>
-    </div>
+        <Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/Event' element={<Event />}/>
+          
+        </Routes>
+    <Footer/>
+</>
+   
+    
   );
 }
 

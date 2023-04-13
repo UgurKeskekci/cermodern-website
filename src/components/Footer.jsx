@@ -7,27 +7,30 @@ import { BsInstagram, BsYoutube, BsFacebook } from "react-icons/bs";
 function Footer() {
   return (
     <>
-      <hr />
       <div>
-        <div>
-          <ul className="flex  px-8">
-            <li className="px-36 p-16 text-center justify-items-center align-middle">
-              <div className="px-12"><BiTimeFive size={30} /></div>
-              <p className="text-xl ">Open now</p>
-              <p className="underline ">closes at 6:30 pm</p>
-            </li>
-            <li className="px-36 p-16 text-center">
-              <div className="px-24"><GoLocation size={30} /></div>
-              <p className="text-xl ">Location</p>
-              <p className="underline ">Schlossplatz, 10178 Berlin</p>
-            </li>
-            <li className="px-36 p-16 text-center">
-              <div className="px-24"><FaRegComment size={30} /></div>
-              <p className="text-xl ">Visitor services</p>
-              <p className="underline ">+49 30 99 211 89 89 • Contact </p>
-            </li>
-          </ul>
-        </div>
+        <ul className="flex  px-8 justify-center">
+          <li className="px-36 p-16 text-center justify-items-center align-middle">
+            <div className="px-12">
+              <BiTimeFive size={30} />
+            </div>
+            <p className="text-xl ">Open now</p>
+            <p className="underline ">closes at 6:30 pm</p>
+          </li>
+          <li className="px-36 p-16 text-center">
+            <div className="px-24">
+              <GoLocation size={30} />
+            </div>
+            <p className="text-xl ">Location</p>
+            <p className="underline ">Schlossplatz, 10178 Berlin</p>
+          </li>
+          <li className="px-36 p-16 text-center">
+            <div className="px-24">
+              <FaRegComment size={30} />
+            </div>
+            <p className="text-xl ">Visitor services</p>
+            <p className="underline ">+49 30 99 211 89 89 • Contact </p>
+          </li>
+        </ul>
       </div>
       <div className="bg-gray-200 ">
         <div className="row flex-row text-center ">

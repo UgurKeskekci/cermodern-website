@@ -17,6 +17,7 @@ import Home from './pages/Home';
 import Event from './pages/Event';
 import { Routes, Route, Link, NavLink } from 'react-router-dom';
 import Hamburgermenu from './components/Hamburgermenu';
+import Calendar from './components/Calendar';
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/Event' element={<Event />}/>
-          
+          <Route path='/calender' element={<Calendar />}/>
         </Routes>
     <Footer/>
 </>

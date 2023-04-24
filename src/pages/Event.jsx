@@ -215,7 +215,16 @@ function Event() {
         </div>
       </div>
 
+
+
+
       <EventGallerySlider />
+
+
+
+
+
+
       {/** EXHIBITION SECTION ----------------------------- */}
       <section className="h-[700px] mb-[500px] w-full">
         <div className="p-6 h-full">
@@ -285,6 +294,10 @@ function Event() {
           </div>
         </div>
       </section>
+
+
+
+
 
       {/** EVENTS CARD SECTION ----------------------------- */}
       <div className="text-left ml-64 mr-64 mt-56">
@@ -371,6 +384,8 @@ function Event() {
           <Blogcard img={blogcard[1].img} title={blogcard[0].title} />
         </div>
       </section>
+
+      <hr />
     </>
   );
 }

@@ -52,12 +52,12 @@ function EventGallerySlider() {
   
 
     <div className="pb-36 bg-gray-200 max-h-[550px]">
-    <div className="h-[450px] 2xl:h-[900px] w-full  relative group pb-12">
+    <div className="h-[450px] 2xl:h-[450px] w-full  relative group pb-12 ">
      
 
      <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className="w-[550px] h-[450px] bg-center bg-cover duration-500 ml-[31%]"
+        className="w-[550px] h-[450px] bg-center bg-cover duration-500 ml-[600px] "
       ></div>
 
       {/* Left Arrow */}
@@ -79,18 +79,7 @@ function EventGallerySlider() {
        
 
     </div>
-    {/** <div className="absolute  h-[200px] top-[85%] left-[30%] ">
-        <div className="h-[100px]  justify-center items-center bg-gray-100 rounded-sm">
-          <p className="  mt-4 w-full  ml-6 justify-center items-center text-2xl text-black font-bold">
-            {slides[currentIndex].text}
-          </p>
-          <p className="  w-[550px] ml-6 justify-center items-center text-black text-sm">
-            {" "}
-            {slides[currentIndex].desc}
-          </p>
-        </div>
-      </div>
-*/}
+  
     </div>
 
   

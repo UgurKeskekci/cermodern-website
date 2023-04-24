@@ -1,5 +1,5 @@
 import React from 'react'
-import videoBg from '../assets/videoBackground.mp4'
+import videoBg from '../assets/videoBg.mp4'
 import {BsArrowDown} from 'react-icons/bs'
 import { Routes,Link } from 'react-router-dom'
 import Event from '../pages/Event'
@@ -18,7 +18,7 @@ function Introduction() {
           <p className='absolute w-full h-[420px] 2xl:h-[750px] flex justify-center items-center md:text-6xl  text-4xl text-white font-bold'>AND SCIENCE, FOR</p>
           <p className='absolute w-full h-[530px] 2xl:h-[900px] flex justify-center items-center md:text-6xl  text-4xl text-white font-bold'>EXCHANGE AND DEBATE</p>
           
-          <div className='absolute w-full h-[1000px] 2xl:h-[1200px] flex justify-center items-center text-white'> <BsArrowDown/></div>
+          <div className='absolute w-full  flex justify-center items-center text-white animate-bounce bottom-[165px] h-12'> <BsArrowDown size={30}/></div>
           <div className='absolute w-full h-[750px] 2xl:h-[1100px] flex justify-center items-center '>
           
           <Link to="/Event"><button className='border border-white w-52 h-16 text-white cursor-pointer'>

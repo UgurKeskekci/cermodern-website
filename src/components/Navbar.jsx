@@ -8,6 +8,7 @@ import crmLogo from '../assets/crmLogo.png'
 
 import {Link, useNavigate} from 'react-router-dom'
 import Hamburgermenu from './Hamburgermenu'
+import Hmcalender from './Hmcalender'
 
 
 function Navbar (){
@@ -20,7 +21,7 @@ function Navbar (){
         <>
         <div className='w-full h-[40px] flex justify-start px-4 mt-1 bg-[#fefefe] text-black'>
             <div className='ml-6 px-4 flex'>
-                <h1 className='mr-2 flex'> <span className='mt-1'><TbWorld/></span> DE</h1>
+                <h1 className='mr-2 flex'> <span className='mt-1'><TbWorld/></span> TR </h1>
                 <h1 className='flex'>EN</h1>
             </div>
             <div className='px-4 flex'>
@@ -32,8 +33,15 @@ function Navbar (){
         <hr className=''></hr>
         <div className='w-full h-[80px] flex justify-between items-center px-4 bg-[#fefefe] text-black'>
             
-           <div>
-           <Hamburgermenu/>
+           <div className='flex'>
+            <div>
+            <Hamburgermenu/>
+            </div>
+            <div className='mt-6 cursor-pointer'>
+            <Hmcalender/>
+            </div>
+           
+           
            </div>
 
             <a  href="/" className='absolute right-0 top-10'>

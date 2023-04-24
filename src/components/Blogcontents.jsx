@@ -33,7 +33,7 @@ function Blogcontents() {
     <Blogcard img={card[0].img} title={card[0].title} desc={card[0].desc}/>
     <Blogcard img={card[1].img} title={card[1].title} desc={card[1].desc}/>
     <Blogcard img={card[2].img} title={card[2].title} desc={card[2].desc}/>
-    <Blogcard img={card[3].img} title={card[3].title} desc={card[3].desc}/>
+ 
 
 
     </>

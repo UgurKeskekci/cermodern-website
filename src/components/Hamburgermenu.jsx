@@ -46,9 +46,11 @@ function Hamburgermenu() {
         </div>
         */}
 
-      <div className="flex border-b border-gray-400 py-8">
+
+
+      <div className="flex border-b border-gray-00 py-8">
         <nav>
-          <section className="MOBILE-MENU flex ">
+          <section className="MOBILE-MENU flex">
             <div
               className="HAMBURGER-ICON space-y-2 "
               onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
@@ -59,7 +61,7 @@ function Hamburgermenu() {
             </div>
 
             <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
-              <div className="ml-20 font-roboto text-6xl my-2">
+              <div className="ml-20 font-roboto text-6xl">
                 <ul>
                   <li>Programlar</li>
                   <li>Siteyi Ziyaret Et</li>
